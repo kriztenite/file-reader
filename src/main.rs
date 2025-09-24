@@ -36,7 +36,4 @@ fn main() {
     println!("File path: {}", file_path);
 
     open_file(file_path);
-
-    // The first argument is the path to that was used to call the program
-    println!("My path is: {}.", args[0]);
 }
